@@ -9,7 +9,7 @@ on:
     paths:
       - '**/*.js'
       - '**/*.less'
-      - '.github/workflows/*.*'
+      - '.github/workflows/*'
 
 jobs:
   build:
@@ -35,6 +35,8 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         git commit -m "Add changes"
+    - name: Pull
+      run: git pull
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
