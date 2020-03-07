@@ -35,6 +35,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         git commit -m "Add changes"
+    - run: git status
     - name: Pull
       run: git pull
     - name: Push changes
