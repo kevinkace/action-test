@@ -6,6 +6,10 @@ on:
   push:
     branches:
       - dm-action
+    paths:
+      - '**/*.js'
+      - '**/*.css'
+      - '/.github/workflows/*'
 
 jobs:
   build:
