@@ -9,7 +9,7 @@ on:
     paths:
       - '**/*.js'
       - '**/*.less'
-      - '/.github/workflows/*'
+      - '/.github/workflows/*.*'
 
 jobs:
   build:
