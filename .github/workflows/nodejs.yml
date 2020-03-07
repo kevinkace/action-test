@@ -8,7 +8,7 @@ on:
       - dm-action
     paths:
       - '**/*.js'
-      - '**/*.css'
+      - '**/*.less'
       - '/.github/workflows/*'
 
 jobs:
